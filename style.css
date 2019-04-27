@@ -122,16 +122,15 @@ h4 {
   }
 
   .key {
-    width: 180px;
-    height: 180px;
+    width: 120px;
+    height: 120px;
     padding: 5px;
   }
 
   kbd {
     position: relative;
-    font-size: 100px;
+    font-size: 60px;
     left: 40px;
     top: 20px;
-    color: blue;
   }
 }
