@@ -108,7 +108,7 @@ h4 {
   opacity: 1;
 }
 
-@media all and (max-width: 800px) {
+@media only screen and (min-width: 600px) {
   header {
     padding-left: 0px;
   }
