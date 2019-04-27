@@ -15,7 +15,7 @@ body {
   width: 80px;
   height: 80px;
   display: inline-block;
-  padding: 20px;
+  padding: 28px;
   margin-left: 50px;
   margin-top: 20px;
   border-radius: 105px;
@@ -108,7 +108,7 @@ h4 {
   opacity: 1;
 }
 
-@media all and (max-width: 800px) {
+@media (min-width: 320px) and (max-width: 480px) {
   header {
     padding-left: 0px;
   }
