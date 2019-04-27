@@ -12,9 +12,6 @@ body {
 .key {
   cursor: pointer;
   outline: none;
-  -webkit-outine: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-
   width: 80px;
   height: 80px;
   display: inline-block;
@@ -26,6 +23,9 @@ body {
   background-color: #ee4266;
 }
 
+.key:focus {
+  outline: none;
+}
 kbd {
   font-size: 50px;
   color: #f3ff0b;
@@ -106,4 +106,30 @@ h4 {
 
 .visible {
   opacity: 1;
+}
+
+@media all and (max-width: 800px) {
+  header {
+    padding-left: 0px;
+  }
+
+  .incorrect-counter {
+    margin-left: 50px;
+  }
+
+  .correct-counter {
+    margin-left: 50px;
+  }
+
+  .key {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 105px;
+    box-shadow: inset -10px -10px 25px rgba(0, 0, 0, 0.3);
+    background-color: #ee4266;
+  }
 }
