@@ -108,7 +108,7 @@ h4 {
   opacity: 1;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 900px) {
   header {
     padding-left: 0px;
   }
